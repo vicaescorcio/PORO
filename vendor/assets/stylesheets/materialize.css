@@ -4067,14 +4067,15 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: transparent;
   width: 100%;
   height: 56px;
   line-height: 56px;
+  box-shadow: none;
 }
 
 nav a {
-  color: #fff;
+  color: black;
 }
 
 nav i,
@@ -4095,6 +4096,10 @@ nav .nav-wrapper {
   nav a.button-collapse {
     display: none;
   }
+
+    a.button-collapse {
+    display: none;
+  }
 }
 
 nav .button-collapse {
@@ -4102,6 +4107,7 @@ nav .button-collapse {
   position: relative;
   z-index: 1;
   height: 56px;
+  margin-left: 20px;
 }
 
 nav .button-collapse i {
@@ -4117,6 +4123,8 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 nav .brand-logo.center {
@@ -4158,7 +4166,7 @@ nav .brand-logo i.material-icons {
 }
 
 nav ul {
-  margin: 0;
+  margin-top:40px ;
 }
 
 nav ul li {

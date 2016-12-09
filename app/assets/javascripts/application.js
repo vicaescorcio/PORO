@@ -12,6 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+
 //= require materialize.js
+//= require logo.js
+
 //= require_tree .
+
+ 
