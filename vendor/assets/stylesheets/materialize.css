@@ -4124,7 +4124,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 nav .brand-logo.center {
@@ -4167,6 +4167,7 @@ nav .brand-logo i.material-icons {
 
 nav ul {
   margin-top:40px ;
+  margin-right: 20px;
 }
 
 nav ul li {
@@ -4195,7 +4196,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color:;
 }
 
 nav ul.left {

@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  *= require materialize.css
-
+ *= require hover.css
  */
 
 
@@ -29,12 +29,6 @@
 }
 
 
-
-
-
-
-
-
 .div1{
 	 display: none;
 }
@@ -42,29 +36,26 @@
 	 margin-top: 40px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-    overflow: hidden;
-    background-color:transparent;
+
+
+
+
+
+/* Navbar*/
+
+
+.icon-navbar{
+	width: 40px;
 }
 
-li {
-    float: left;
+.text-navbar{
+	opacity: 0;
+	position:absolute;
+	margin-top: 60px;
+	margin-left: -40px;
+	  -webkit-transform:  rotate(300deg);
+	  -moz-transform:  rotate(300deg);
+	  -o-transform:  rotate(300deg);
+	  writing-mode: lr-tb;
 }
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
 

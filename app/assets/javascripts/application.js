@@ -15,6 +15,7 @@
 
 //= require materialize.js
 //= require logo.js
+//= require navbar-effect.js
 
 //= require_tree .
 
