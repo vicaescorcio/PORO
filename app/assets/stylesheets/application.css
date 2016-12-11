@@ -14,7 +14,9 @@
  *= require_self
  *= require materialize.css
  *= require hover.css
-  *= require custom-fonts.css.scss
+ *= require galereya-ie.css
+ *= require galereya.css
+ *= require custom-fonts.css.scss
  */
 
 /*  fonte*/
@@ -31,14 +33,22 @@
 
 
 
+.main{
+	margin-top: 40px;
+	float: right;
+	margin-right: 50px;
+}
 
+#main-block{
+	width: 600px;
+}
 
 
 
 
 
 .valign-wrapper{
-	width: 600px;
+	width: 100%;
 	height: 600px;
 	 margin: 0 auto; 
 }

@@ -16,6 +16,11 @@
 //= require materialize.js
 //= require logo.js
 //= require navbar-effect.js
+//= require galereya.js
+//= require mosaic.js
+
+
+
 
 //= require_tree .
 
