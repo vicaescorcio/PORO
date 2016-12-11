@@ -311,8 +311,8 @@
   transition-property: transform;
 }
 .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
+  -webkit-transform: rotate(150deg);
+  transform: rotate(150deg);
 }
 
 /* Grow Rotate */
