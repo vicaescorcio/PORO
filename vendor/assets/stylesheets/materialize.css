@@ -4167,7 +4167,7 @@ nav .brand-logo i.material-icons {
 
 nav ul {
   margin-top:40px ;
-  margin-right: 40px;
+  margin-right: 200px;
 }
 
 nav ul li {
@@ -7626,16 +7626,17 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 16px;
-  width: 16px;
+  height: 7px;
+  width: 30px;
   margin: 0 12px;
-  background-color: #e0e0e0;
+  background-color:black;
   transition: background-color .3s;
-  border-radius: 50%;
+  opacity: 0.5;
+  /*border-radius: 50%;*/
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: green;
 }
 
 .carousel {
