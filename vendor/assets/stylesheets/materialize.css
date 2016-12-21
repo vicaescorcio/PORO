@@ -4124,7 +4124,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
   margin-top: 42px;
-  margin-left: 50px;
+  margin-left: 120px;
 }
 
 nav .brand-logo.center {
@@ -4174,6 +4174,7 @@ nav ul li {
   transition: background-color .3s;
   float: left;
   padding: 0;
+
 }
 
 nav ul li.active {
@@ -7626,17 +7627,19 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 7px;
+  height:4px;
   width: 30px;
-  margin: 0 12px;
+  margin: 0 5px;
   background-color:black;
   transition: background-color .3s;
-  opacity: 0.5;
+  transition: height .2s;
   /*border-radius: 50%;*/
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: green;
+  background-color: gray;
+  
+  
 }
 
 .carousel {
