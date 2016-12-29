@@ -3107,10 +3107,10 @@ td, th {
 
 .collection .collection-item.avatar .circle {
   position: absolute;
-  width: 42px;
-  height: 42px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
-  left: 15px;
+  left: 10px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -4135,7 +4135,8 @@ nav .brand-logo.center {
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
+    margin-top: 10px;
+    left: 40%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -4167,7 +4168,7 @@ nav .brand-logo i.material-icons {
 
 nav ul {
   margin-top:40px ;
-  margin-right: 200px;
+  margin-right: 180px;
 }
 
 nav ul li {

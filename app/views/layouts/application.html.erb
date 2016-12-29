@@ -5,6 +5,8 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= favicon_link_tag 'favicon.png' %>
 </head>
@@ -14,9 +16,9 @@
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     
  		<ul class=" right hide-on-med-and-down">
- 			<li><a class="black-text "><span id= "project" class="roboto rotate">PROJETOS</span><%=image_tag 'icon-navbar.png', name:'#project', class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
- 			<li><a class="black-text"><span id= "contact" class="roboto rotate">CONTATO</span><%=image_tag 'icon-navbar.png', name:'#contact', class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
- 			<li><a  class="black-text"><span id= "about" class="roboto rotate">SOBRE</span><%=image_tag 'icon-navbar.png',name:'#about',class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
+ 			<li><a class="black-text project"><span id= "project" class="roboto rotate">PROJETOS</span><%=image_tag 'icon-navbar.png', name:'#project', class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
+ 			<li><a class="black-text contact"><span id= "contact" class="roboto rotate">CONTATO</span><%=image_tag 'icon-navbar.png', name:'#contact', class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
+ 			<li><a  class="black-text about"><span id= "about" class="roboto rotate">SOBRE</span><%=image_tag 'icon-navbar.png',name:'#about',class: 'hvr-rotate icon-navbar responsive-img'%></a></li>
      
      
  		</ul>

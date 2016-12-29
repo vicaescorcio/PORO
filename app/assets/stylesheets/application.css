@@ -111,8 +111,22 @@
 
  /* end navbar*/
 
+.row{
+	margin-top: 150px;
 
+}
+.collection{
+	margin-left: 5px;
+}
 
+.content-about{
+	margin-left: 180px;
+  margin top:-50px;
+}
+/*
+.about2{
+  display: none;
+}*/
 
 /* ---- grid ---- */
 

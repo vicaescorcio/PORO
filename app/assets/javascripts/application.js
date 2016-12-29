@@ -16,14 +16,8 @@
 //= require materialize.js
 //= require logo.js
 //= require navbar-effect.js
-//= require initialize.js
-
-
-//= require galereya.js
-//= require load-slider.js
-//= require masonry.js
-
-
+//= require about.js
+//= require jquery-ui.js
 
 
 //= require_tree .
