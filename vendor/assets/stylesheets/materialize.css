@@ -4124,7 +4124,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
   margin-top: 42px;
-  margin-left: 120px;
+  margin-left: 205px;
 }
 
 nav .brand-logo.center {
@@ -4136,7 +4136,7 @@ nav .brand-logo.center {
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     margin-top: 10px;
-    left: 40%;
+    left: 30%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -7551,8 +7551,9 @@ input[type=range]:focus::-ms-fill-upper {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 500px;
   width: 100%;
+
 }
 
 .slider.fullscreen {
@@ -7577,7 +7578,7 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides {
   background-color: white;
   margin: 0;
-  height: 450px;
+  height: 500px;
 }
 
 .slider .slides li {
@@ -7596,8 +7597,8 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-      background-size: 100% 500px;
-    background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
 }
 
 .slider .slides li .caption {
@@ -7623,16 +7624,16 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 0;
+  
 }
 
 .slider .indicators .indicator-item {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height:4px;
-  width: 30px;
-  margin: 0 5px;
+  height:2px;
+  width: 60px;
+  margin: 0 1px;
   background-color:black;
   transition: background-color .3s;
   transition: height .2s;
@@ -7751,6 +7752,45 @@ input[type=range]:focus::-ms-fill-upper {
   -ms-user-select: none;
   user-select: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * The picker input element.

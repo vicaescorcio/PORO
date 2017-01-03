@@ -4,5 +4,6 @@ $(window).ready(function(){
     $('.slider').slider({full_width: false});
     $('.loading').hide(8000,function(){ $(this).remove(); });
     $(".div1").fadeIn(9000);
+    $('.brand-logo').click(function(){location.reload();});
 });
 

@@ -35,8 +35,7 @@
 
 
 .slider{
-	margin-top: 30px;
-	
+	margin-top: 50px;
 
 
 }
@@ -112,53 +111,18 @@
  /* end navbar*/
 
 .row{
-	margin-top: 150px;
+	margin-top: 40px;
 
 }
-.collection{
-	margin-left: 5px;
-}
 
+
+
+/* about*/
+.about2{
+	float:right;
+	}
 .content-about{
-	margin-left: 180px;
+  float: right;
 }
 
 
-/* ---- grid ---- */
-
-.grid {
-	max-width: 1200px;
-  margin: 0 auto ;
- 
-  margin-left: 150px;
-  margin-top: 100px;
-}
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-  width: 20%;
-}
-
-.grid-item {
-  height: 120px;
-  float: left;
-  background: gray;
-  border: 2px solid #333;
- 
-  
-}
-
-.grid-item--width2 { width:  20%; }
-.grid-item--width3 { width:  40%; }
-
-.grid-item--height2 { height: 500px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
