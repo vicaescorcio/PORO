@@ -1,5 +1,14 @@
 
 $(window).ready(function(){
+
+
+
+	$('.imagem-mascara').click(
+		function(){
+			$('.s').materialbox();
+		});
+
+
 	$(".gallerie").hide(); 
   $('#project').click(
 	  function(){
