@@ -1,27 +1,20 @@
   
  <%= render 'about.html.erb'%>
+ <%= render 'gallerie.html.erb'%>
 <div class="container"> 
   <div class="slider">
     <ul class="slides">
       <li>
         <%=image_tag('slider1.png',id:'image1')%>
-        <div class="caption center-align">
-          
-        </div>
+        
       </li>
       <li>
         <%=image_tag('slider2.png')%>
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+       
       </li>
       <li>
         <%=image_tag('slider3.png')%>
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+   
       </li>
     </ul>
   </div>

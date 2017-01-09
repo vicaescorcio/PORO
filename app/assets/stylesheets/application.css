@@ -123,9 +123,12 @@
 	margin-top: 40px;
 	
 }
+#menu-name{
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
 
-
- /* end navbar*/
+/* end navbar*/
 
 .row{
 	margin-top: 80px;
@@ -148,4 +151,12 @@
 .info{
   float: left;
   display: inline;
+  margin-left: 55px;
 }
+
+
+
+
+/* gallerie*/
+.
+/* end */

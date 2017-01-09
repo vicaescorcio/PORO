@@ -17,6 +17,7 @@
 //= require logo.js
 //= require navbar-effect.js
 //= require about.js
+//= require gallerie.js
 //= require slider.js
 //= require rotate.js
 //= require jquery-ui.js
