@@ -1,5 +1,4 @@
 
-
 $(window).ready(function(){
 	$(".about2").hide(); 
   $('#about').click(
