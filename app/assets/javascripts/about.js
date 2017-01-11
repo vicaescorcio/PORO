@@ -5,6 +5,7 @@ $(window).ready(function(){
 	  function(){
 		  
   // $('.slider').slideUp(2000);
+     
      $( ".slider" ).hide( "drop", {},1000 ); 
      $(".about2").delay( 1000 ).show("fade",{},5000);
 	  });
