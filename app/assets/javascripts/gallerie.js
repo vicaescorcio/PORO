@@ -1,24 +1,16 @@
 
-$(window).ready(function(){
-
-
-
-	$('.imagem-mascara').click(
-		function(){
-			$('.s').materialbox();
-		});
-
-
-	$(".gallerie").hide(); 
-  $('#project').click(
-	  function(){
-		  
-  // $('.slider').slideUp(2000);
-  
-     $( ".slider" ).hide( "drop", {},1000 ); 
-
-     $(".gallerie").delay( 1000 ).show("fade",{},5000);
-	  });
-
-
-});
+$(document).ready(function() {
+    $('#imageGallery').lightSlider({
+        gallery:true,
+        item:1,
+        loop:true,
+        thumbItem:9,
+        slideMargin:0,
+        enableDrag: false,
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                selector: '#imageGallery .lslide'
+            });
+        }   
+    });  
+  });

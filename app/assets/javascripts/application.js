@@ -16,13 +16,12 @@
 //= require materialize.js
 //= require logo.js
 //= require navbar-effect.js
-//= require about.js
-//= require gallerie.js
+//= require navegation.js
 //= require slider.js
 //= require rotate.js
+//= require lightslider.js
+//= require portfolio.jquery.min.js
 //= require jquery-ui.js
-
+//= require jquery.row-grid.js
 
 //= require_tree .
-
- 

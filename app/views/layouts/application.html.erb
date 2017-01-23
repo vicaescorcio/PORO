@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
 
-  
+ 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= favicon_link_tag 'favicon.png' %>
 </head>
@@ -19,9 +19,9 @@
     
  		<ul class=" right hide-on-med-and-down">
      
- 			<li><a  class="black-text project"><%=image_tag 'icon-navbar.png', id:'project', name:'#project', class: 'icon-navbar  responsive-img'%></a></li>
- 			<li><a class="black-text contact"><%=image_tag 'icon-navbar.png', id:'contact', name:'#contact', class: 'icon-navbar  responsive-img'%></a></li>
- 			<li><a  id="about2" class="black-text about"><%=image_tag 'icon-navbar.png',name:'#about',class: 'icon-navbar  responsive-img'%></a></li>
+ 			<li><a id="project" class="black-text project"><%=image_tag 'icon-navbar.png', id:'project', name:'#project', class: 'icon-navbar  responsive-img'%></a></li>
+ 			<li><a id="contact" class="black-text contact"><%=image_tag 'icon-navbar.png', id:'contact', name:'#contact', class: 'icon-navbar  responsive-img'%></a></li>
+ 			<li><a  id="about" class="black-text about"><%=image_tag 'icon-navbar.png',name:'#about',class: 'icon-navbar  responsive-img'%></a></li>
      
      
  		</ul>
@@ -36,8 +36,8 @@
 
 
   </nav>
-  
   <div id="content">
+   
 <%= yield %>
 </div>
 </body>
