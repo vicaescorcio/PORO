@@ -20,7 +20,7 @@
 //= require slider.js
 //= require rotate.js
 //= require lightslider.js
-//= require portfolio.jquery.min.js
+//= require portfolio.jquery.js
 //= require jquery-ui.js
 //= require jquery.row-grid.js
 
