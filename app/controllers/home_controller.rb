@@ -6,4 +6,7 @@ class HomeController < ApplicationController
   end
   def about
   end
+  def maintenance
+  end
+  
 end

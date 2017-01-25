@@ -20,9 +20,27 @@
  */
 
 
-
-
-
+.center-align {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* código abaixo não relevante, só para o estilo! */
+   
+}
+.image {
+    height: 500px;
+    text-align:center;
+    position: relative;
+    
+    /* código abaixo não relevante, só para o estilo! */
+    background: url(LOGO.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /*  fonte*/
 
