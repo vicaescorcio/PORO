@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('#imageGallery').lightSlider({
         gallery:true,
         item:1,
@@ -13,4 +13,8 @@ $(document).ready(function() {
             });
         }   
     });  
-  });
+  });*/
+
+  $(document).ready(function() {
+  $(".fancybox").fancybox();
+});
