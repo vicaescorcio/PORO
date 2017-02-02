@@ -14,9 +14,9 @@
  *= require_self
  *= require materialize.css
  *= require hover.css
- *= require lightslider.css
  *= require portfolio.jquery.css
  *= require custom-fonts.css.scss
+ *= require jquery.fancybox.css
  */
 
 
