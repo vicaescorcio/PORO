@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+
 //= require jquery_ujs
 //= require gallerie.js
 //= require materialize.js
@@ -19,9 +20,9 @@
 //= require navegation.js
 //= require slider.js
 //= require rotate.js
-//= require lightslider.js
 //= require portfolio.jquery.js
 //= require jquery-ui.js
 //= require jquery.row-grid.js
-
+//= require jquery.magnific-popup.js
+//= require zoom.js
 //= require_tree .

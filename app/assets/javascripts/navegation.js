@@ -13,6 +13,7 @@ $(window).ready(function(){
         
         $('#content').load(status,'',function(){
           //$(".load").fadeOut("slow");
+           
         });
      
     } ); 
