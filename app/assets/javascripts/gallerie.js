@@ -1,6 +1,11 @@
 
 $(document).ready(function() {
      // Initialize popup as usual
+    
+
+
+
+
 $('.image-link').magnificPopup({
   type: 'image',
   mainClass: 'mfp-with-zoom', // this class is for CSS animation below

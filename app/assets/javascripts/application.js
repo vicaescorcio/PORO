@@ -24,5 +24,6 @@
 //= require jquery-ui.js
 //= require jquery.row-grid.js
 //= require jquery.magnific-popup.js
+//= require scroll-fade.js
 //= require zoom.js
 //= require_tree .
