@@ -115,7 +115,7 @@ ul.thumbs li.content {
 	margin-bottom: 40px;
 	background: none;
 	float: left;
-    height: 430px;
+    height: 400px;
 	position: relative;
 	padding: 45px 0 45px;
 }
@@ -123,10 +123,12 @@ ul.thumbs li.content {
 ul.thumbs li.content h3 {
     display: inline-block;
 }
-
+ul.thumbs li.content h1{
+    margin-top: -10px;
+}
 ul.thumbs li.content .close {
     position: absolute;
-    top: 0;
+    top: 7%;
     right: 0;
     color: #c2c2c2;
     cursor: pointer;
@@ -145,7 +147,8 @@ ul.thumbs li.content .media {
     float: left;
     margin-right: 20px;
     width: 50%;
-    min-height: 200px;
+    min-height: 300px;
+
 }
 
 ul.thumbs li.content .media img {
@@ -155,7 +158,7 @@ ul.thumbs li.content .media img {
 @media (max-width: 1080px) {
 	.close {
 		right: 0 !important;
-		top: 7px !important;
+		top: 7% !important;
 	}
 	ul.thumbs .media {
 		margin-right: 0;
@@ -181,3 +184,20 @@ ul.thumbs li.content .media img {
 .portfolio-content {
     display: none;
 }
+
+#cross {
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+}
+#cross:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+          
