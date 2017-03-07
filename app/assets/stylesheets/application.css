@@ -216,5 +216,7 @@
   height: 500px;
 }
 
-
+ul.thumbs-image{
+  columns: 3;
+}
 
