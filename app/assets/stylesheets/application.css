@@ -217,6 +217,14 @@
 }
 
 ul.thumbs-image{
-  columns: 3;
+  columns: 2;
 }
 
+.thumbnailimg{
+  width: auto;
+  height: 200px;
+}
+.thumbnail-image{
+  width: 200px;
+  height: 200px;
+}
