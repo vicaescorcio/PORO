@@ -225,6 +225,13 @@ ul.thumbs-image{
   height: 200px;
 }
 .thumbnail-image{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+  transition: 0.8s -webkit-filter linear;
   width: 200px;
   height: 200px;
+}
+.thumbnail-image:hover{
+   -webkit-filter: none; /* Chrome, Safari, Opera */
+    filter: none;
 }

@@ -1,6 +1,6 @@
 
 $(window).ready(function(){
-  $('nav.div1 ul li a').click(
+  $('nav.div1 ul li a, .more').click(
   	 
   	
 	  function(){
