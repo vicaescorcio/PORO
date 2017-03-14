@@ -1,2 +1,11 @@
-<h1>Projects#new</h1>
-<p>Find me in app/views/projects/new.html.erb</p>
+<div class="container">
+	<div class="row">
+		<%= form_for(@project, url: path, html:{class:'col s12 m12 l12'}) do |f| %>
+	    <div class="row">
+	    	<div class="input-field col l6 m6 s12">
+	    		<i class="material-icons prefix">mode_edit</i>
+	    	</div>
+	    </div>	 
+		<%end%>
+	</div>
+</div>
