@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false%>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
-
+  <meta name="viewport" content="width=device-width, user-scalable=no">
  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= favicon_link_tag 'favicon.png' %>
@@ -13,7 +13,7 @@
 <body>
 
   <nav class="div1">
-    <a href="#!" class="brand-logo black-text"><%=image_tag 'logo-navbar.png', id:'logo', class: 'responsive-img'%></a>
+    <a href="#!" class="brand-logo left black-text"><%=image_tag 'logo-navbar.png', id:'logo', class: 'responsive-img'%></a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     
     

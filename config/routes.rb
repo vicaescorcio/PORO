@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'projects/new'
+
+  get 'projects/update'
+
+  get 'projects/delete'
+
+  get 'projects/show'
+
   get 'home/index'
   get 'home/about'
   get 'home/gallerie'

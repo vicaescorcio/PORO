@@ -1,6 +1,6 @@
 
 $(window).ready(function(){
-  $('nav.div1 ul li a').click(
+  $('nav.div1 ul li a, .more').click(
   	 
   	
 	  function(){
@@ -13,6 +13,7 @@ $(window).ready(function(){
         
         $('#content').load(status,'',function(){
           //$(".load").fadeOut("slow");
+           
         });
      
     } ); 

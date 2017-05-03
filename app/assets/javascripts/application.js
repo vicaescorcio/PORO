@@ -11,7 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+
+
 //= require jquery_ujs
+//= require gallerie.js
 //= require materialize.js
 //= require logo.js
 //= require navbar-effect.js
@@ -21,5 +24,7 @@
 //= require portfolio.jquery.js
 //= require jquery-ui.js
 //= require jquery.row-grid.js
-
+//= require jquery.magnific-popup.js
+//= require scroll-fade.js
+//= require zoom.js
 //= require_tree .

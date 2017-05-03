@@ -1,37 +1,59 @@
 <div class="container">
 	<div class="row">
-	  <div class="col s12 m12 l6 box">
-     <div class="imagem">
-	    <%=image_tag('slider1.png',class:'materialboxed slider1 responsive-img' ) %>
-	    <div class="imagem-mascara"></div>
-	   </div>
-	 	  
-	  </div>
-	  <div class="col s12 m12 l6">
-	 	  <%=image_tag('slider3.png', class:'materialboxed responsive-img' ) %>
-	  </div>
-	</div>
-	<div class="row">
-		<div class="col s12 m12 l4">
-			<%=image_tag('slider1.png', class:'materialboxed responsive-img' ) %>
-		</div>
-		<div class="col s12 m12 l5">
-			<%=image_tag('slider2.png', class:'materialboxed responsive-img' ) %>
-		</div>
-		<div class="col s12 m12 l3">
-			<%=image_tag('slider3.png', class:'materialboxed responsive-img' ) %>
+		<div class="col m12 s12 l12">
+			<div class="main-image">
+				<%=image_tag('slider2.png',class:'responsive-img', id:'image')%>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col s12 m12 l3">
-			<%=image_tag('slider2.png', class:'materialboxed responsive-img' ) %>
+		<div class="col s12 m6 l6">
+			<div class="card">
+				<div class="card-tabs">
+					<ul class="tabs tabs-fixed-width">
+						<li class="tab"><a href="#test4">Descrição</a></li>
+						<li class="tab"><a class="active " href="#test5">Ficha Técnica</a></li>
+					</ul>
+				</div>
+				<div class="card-content ">
+					<div id="test4"> Test1</div>
+					<div id="test5"> Test2</div>
+				</div>
+			</div>
 		</div>
-		<div class="col s12 m12 l5">
-			<%=image_tag('slider1.png', class:'materialboxed responsive-img' ) %>
-		</div>
-		<div class="col s12 m12 l4">
-			<%=image_tag('slider3.png', class:'materialboxed responsive-img' ) %>
+		<div class="col s12 m6 l6">
+			<ul class="thumbs-image">
+				<li class="thumbnail-image">
+					<a name="/assets/slider1.png" class="thumbnails" href="">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+				<li class="thumbnail-image">
+					<a href="" class="thumbnails">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+				<li class="thumbnail-image">
+					<a href="">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+				<li class="thumbnail-image">
+					<a href="">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+				<li class="thumbnail-image">
+					<a href="">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+				<li class="thumbnail-image">
+					<a href="">
+						<%=image_tag('slider1.png',class:'responsive-img')%>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
-
 </div>

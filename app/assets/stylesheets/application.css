@@ -12,13 +12,17 @@
  *
  *= require_tree .
  *= require_self
+ *= require magnific-popup.css
  *= require materialize.css
  *= require hover.css
  *= require portfolio.jquery.css
  *= require custom-fonts.css.scss
- *= require jquery.fancybox.css
+
+
  */
 
+.thumbnail{
+  opacity: 0;}
 
 .center-align {
     position: absolute;
@@ -49,6 +53,11 @@
   font-style: normal;
   font-weight: 200;
 }
+
+.novecento {
+  font-family: 'novecento_sans_widemedium';
+  font-style: normal;
+  font-weight: 200;}
 
 /* end */
 
@@ -207,5 +216,22 @@
   height: 500px;
 }
 
+ul.thumbs-image{
+  columns: 2;
+}
 
-
+.thumbnailimg{
+  width: auto;
+  height: 200px;
+}
+.thumbnail-image{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+  transition: 0.8s -webkit-filter linear;
+  width: 200px;
+  height: 200px;
+}
+.thumbnail-image:hover{
+   -webkit-filter: none; /* Chrome, Safari, Opera */
+    filter: none;
+}

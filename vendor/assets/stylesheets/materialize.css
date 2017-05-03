@@ -4124,7 +4124,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
   margin-top: 42px;
-  margin-left: 205px;
+  margin-left: 185px;
 }
 
 nav .brand-logo.center {
@@ -4133,10 +4133,13 @@ nav .brand-logo.center {
           transform: translateX(-50%);
 }
 
+
+
+
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
+    margin-left: 10%;
     margin-top: 10px;
-    left: 30%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -4147,6 +4150,7 @@ nav .brand-logo.center {
   }
   nav .brand-logo.left {
     left: 0.5rem;
+    left: 25%;
   }
   nav .brand-logo.right {
     right: 0.5rem;
@@ -4168,7 +4172,7 @@ nav .brand-logo i.material-icons {
 
 nav ul {
   margin-top:50px ;
-  margin-right: 180px;
+  margin-right: 165px;
 }
 
 nav ul li {
@@ -4541,6 +4545,7 @@ small {
 }
 
 .card {
+  box-shadow: none;
   position: relative;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
@@ -4673,11 +4678,13 @@ small {
 .card .card-content {
   padding: 20px;
   border-radius: 0 0 2px 2px;
+  margin-top: 10px;
 }
 
 .card .card-content p {
   margin: 0;
   color: inherit;
+
 }
 
 .card .card-content .card-title {
@@ -4849,7 +4856,7 @@ small {
 }
 
 .tabs .tab a:hover {
-  color: #9ccc65;
+  color: gray;
 }
 
 .tabs .tab.disabled a {
@@ -4861,7 +4868,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #9ccc65 ;
+  background-color: black ;
   will-change: left, right;
 }
 

@@ -1,16 +1,12 @@
 
-$(document).ready(function() {
-    $('#imageGallery').lightSlider({
-        gallery:true,
-        item:1,
-        loop:true,
-        thumbItem:9,
-        slideMargin:0,
-        enableDrag: false,
-        onSliderLoad: function(el) {
-            el.lightGallery({
-                selector: '#imageGallery .lslide'
-            });
-        }   
-    });  
-  });
+
+$(window).ready(function(){
+$(".thumbnails").click(function() {
+    var content = $(this).attr("name");
+    $("#image").fadeOut(1000, function() {
+        $("#image").attr("src",content);
+    }).fadeIn(1000);
+    return false;
+});
+
+});
